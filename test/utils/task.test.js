@@ -1,5 +1,5 @@
 // findIndexById.test.js
-const findIndexById = require('../utils/arrayUtils').findIndexById;
+const findIndexById = require('../../src/utils/arrayUtils').findIndexById;
 
 describe('findIndexById', () => {
   beforeEach(() => {

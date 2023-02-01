@@ -1,4 +1,4 @@
-const taskService = require('../../services/task')
+const taskService = require('../services/task')
 
 const getTasks = async (req, res) => {
     console.log("/tasks controller is called")

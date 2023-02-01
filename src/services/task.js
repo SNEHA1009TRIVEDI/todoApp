@@ -1,4 +1,4 @@
-const { tasks1 } = require('../database/models')
+const { tasks1 } = require('../../database/models/tasks1')
 const { findIndexById } = require('../utils/arrayUtils')
 
 const getTasks = async () => {
