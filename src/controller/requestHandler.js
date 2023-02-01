@@ -1,4 +1,4 @@
-const taskService = require('../services/task')
+const taskService = require('../../services/task')
 
 const getTasks = async (req, res) => {
     console.log("/tasks controller is called")
@@ -21,6 +21,7 @@ const completeTask = async (req, res) => {
 }
 
 const deleteTasks = async(req, res) => {
+
     console.log("DELETE /tasks/ controller is called")
     res.json(await taskService.deleteTasks(req.query.isComplete));
 }
